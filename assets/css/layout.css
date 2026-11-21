@@ -1,0 +1,15 @@
+.container { width: min(calc(100% - 2rem), var(--content-width)); margin-inline: auto; }
+.site-header { position: sticky; top: 0; z-index: 10; background: color-mix(in srgb, var(--color-surface) 92%, transparent); border-bottom: 1px solid var(--color-border); backdrop-filter: blur(12px); }
+.header-inner { min-height: 4.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.brand { font-weight: 800; font-size: 1.25rem; text-decoration: none; }
+.brand span { color: var(--color-primary); }
+.site-nav, .button-row { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; }
+.site-nav a { font-size: .95rem; text-decoration: none; }
+.hero { padding-block: clamp(4rem, 10vw, 8rem); }
+.hero-copy { max-width: 42rem; margin-top: 1.5rem; font-size: clamp(1.05rem, 2vw, 1.3rem); }
+.section { padding-block: var(--space-12); }
+.section-heading { margin-bottom: var(--space-6); }
+.card-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--space-4); }
+.site-footer { margin-top: var(--space-12); padding-block: var(--space-8); background: var(--color-surface-alt); }
+@media (max-width: 50rem) { .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .header-inner { align-items: flex-start; flex-direction: column; padding-block: .8rem; } }
+@media (max-width: 34rem) { .card-grid { grid-template-columns: 1fr; } .site-nav { gap: .7rem; } }
