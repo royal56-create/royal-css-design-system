@@ -1,0 +1,4 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CSS nesting</title><link rel="stylesheet" href="../../assets/css/main.css"><style>.nesting-demo{padding:1.25rem;border:1px solid var(--color-border);border-radius:1rem;& h2{color:var(--color-primary)}& a{font-weight:700;&:hover{text-decoration-thickness:3px}}}</style></head><body><main class="container section"><a href="../../index.html">← Home</a><h1>Native CSS nesting</h1><p>Modern CSS allows related selectors to be nested inside a parent rule. Keep nesting shallow for readability.</p><article class="nesting-demo"><h2>Nested heading</h2><a href="#source">Hover this link</a></article><pre id="source"><code>.card {
+  & h2 { color: blue; }
+  & a:hover { text-decoration: underline; }
+}</code></pre></main></body></html>
