@@ -1,14 +1,21 @@
 name: CSS project quality checks
+
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
   workflow_dispatch:
+
 permissions:
   contents: read
+
 jobs:
   integrity:
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: [20, 22]
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -16,6 +23,8 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-      - name: Run project integrity checks
+          node-version: ${{ matrix.node-version }}
+      - name: Check test script syntax
+        run: node --check tests/check-project.mjs
+      - name: Run project integrity and local-reference checks
         run: node tests/check-project.mjs
