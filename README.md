@@ -1,17 +1,19 @@
 # Royal CSS Design System
 
-A comprehensive CSS learning and design system featuring responsive layouts, modern UI components, animations, themes, and reusable styling examples.
+A comprehensive CSS learning and design system featuring responsive layouts, modern UI components, animations, themes, advanced CSS patterns and reusable styling examples.
 
 ## Start here
 Open [index.html](index.html) to explore the learning hub. No package installation or build step is required.
 
 ## What's included
-- **Foundations:** selectors, cascade, specificity, box model, units and typography.
-- **Layout:** Flexbox, CSS Grid and responsive layouts.
+- **Foundations:** selectors, cascade, specificity, box model, units, colors and typography.
+- **Layout:** Flexbox, CSS Grid, positioning, responsive layouts and scroll snapping.
 - **Design system:** design tokens, CSS custom properties, reusable components and themes.
-- **Visual effects:** gradients, shadows, transitions, transforms and container queries.
+- **Components:** buttons, cards, forms, responsive navigation and interactive states.
+- **Visual effects:** gradients, shadows, image sizing, transitions, transforms and keyframes.
+- **Modern CSS:** nesting, logical properties, cascade layers, container queries and fluid CSS functions.
 - **Accessibility:** keyboard focus, contrast, reduced motion and semantic patterns.
-- **Documentation:** complete guide, getting started, responsive design and browser support.
+- **Documentation:** complete guide, architecture, feature reference, browser support and testing checklists.
 - **Quality checks:** dependency-free Node.js project integrity test and GitHub Actions workflow.
 
 ## Quick start
@@ -36,7 +38,7 @@ node tests/check-project.mjs
 GitHub Actions runs the same check on pushes and pull requests to `main`.
 
 ## Learning order
-Start with [Getting Started](docs/GETTING_STARTED.md), then follow the [Complete CSS Guide](docs/CSS_COMPLETE_GUIDE.md). Use the [Component Catalog](docs/COMPONENT_CATALOG.md) to find examples.
+Start with [Getting Started](docs/GETTING_STARTED.md), follow the [Complete CSS Guide](docs/CSS_COMPLETE_GUIDE.md), then explore the [Component Catalog](docs/COMPONENT_CATALOG.md) and [Modern CSS Features Reference](docs/CSS_FEATURES_REFERENCE.md). Before releasing changes, use the [CSS Testing Checklist](docs/CSS_TESTING_CHECKLIST.md).
 
 ## License
 No license has been declared yet. Until a license is added, standard copyright applies; ask the repository owner before reusing or redistributing the project.
