@@ -11,10 +11,14 @@
 | Grid | `examples/layout/grid.html` | minmax(), auto-fit |
 | Positioning | `examples/layout/positioning.html` | Relative, absolute |
 | Responsive layout | `examples/layout/responsive-layout.html` | Media queries |
+| Scroll snap | `examples/layout/scroll-snap.html` | Scroll containers |
 | Design tokens | `examples/design-tokens/tokens-demo.html` | Custom properties |
-| Buttons and cards | `examples/components/component-showcase.html` | Reusable UI patterns |
+| Buttons and cards | `examples/components/component-showcase.html` | Reusable UI |
 | Forms | `examples/components/forms-and-inputs.html` | Labels, inputs, focus |
+| Navigation | `examples/components/navigation-patterns.html` | Responsive navigation |
+| UI states | `examples/components/states-and-feedback.html` | Hover, active, disabled |
 | Gradients and shadows | `examples/effects/gradients-and-shadows.html` | Backgrounds, shadows |
+| Image sizing | `examples/effects/images-and-object-fit.html` | Aspect ratio, object-fit |
 | Transitions | `examples/animations/animation-demo.html` | Transform, transition |
 | Keyframes | `examples/animations/keyframes.html` | Animation, reduced motion |
 | Themes | `examples/themes/dark-mode.html` | Theme tokens |
@@ -22,3 +26,7 @@
 | Pseudo-elements | `examples/advanced/pseudo-elements.html` | ::before |
 | Cascade layers | `examples/advanced/cascade-layers.html` | @layer |
 | Container queries | `examples/advanced/container-queries.html` | @container |
+| CSS nesting | `examples/advanced/css-nesting.html` | Nested selectors |
+| Logical properties | `examples/advanced/logical-properties.html` | RTL-aware layout |
+| CSS functions | `examples/advanced/css-functions.html` | min(), max(), clamp() |
+| Print styles | `examples/advanced/print-styles.html` | @media print |
