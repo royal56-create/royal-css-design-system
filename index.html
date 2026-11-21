@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Royal CSS Design System: practical CSS lessons, accessible components and responsive layouts.">
+  <title>Royal CSS Design System</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Royal <span>CSS</span></a>
+      <nav aria-label="Main navigation" class="site-nav">
+        <a href="#learning-path">Learning path</a>
+        <a href="#components">Components</a>
+        <a href="docs/GETTING_STARTED.md">Documentation</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero container">
+      <p class="eyebrow">Learn · Build · Reuse</p>
+      <h1>A practical home for modern CSS</h1>
+      <p class="hero-copy">Explore fundamentals, responsive layouts, accessible components, themes and production-minded patterns through small examples.</p>
+      <div class="button-row"><a class="button button-primary" href="#learning-path">Explore the learning path</a><a class="button button-secondary" href="examples/components/component-showcase.html">View components</a></div>
+    </section>
+    <section class="section container" id="learning-path">
+      <div class="section-heading"><p class="eyebrow">Structured curriculum</p><h2>Learn CSS step by step</h2></div>
+      <div class="card-grid">
+        <article class="card"><h3>01 · Foundations</h3><p>Selectors, cascade, specificity, box model, units and typography.</p><a href="examples/fundamentals/selectors.html">Start learning →</a></article>
+        <article class="card"><h3>02 · Layout</h3><p>Flexbox, Grid, positioning and responsive breakpoints.</p><a href="examples/layout/flexbox.html">Explore layouts →</a></article>
+        <article class="card"><h3>03 · Design systems</h3><p>Tokens, custom properties, themes and reusable components.</p><a href="examples/design-tokens/tokens-demo.html">Explore tokens →</a></article>
+        <article class="card"><h3>04 · Motion & effects</h3><p>Transitions, transforms, keyframes and reduced-motion support.</p><a href="examples/animations/animation-demo.html">Explore motion →</a></article>
+      </div>
+    </section>
+    <section class="section container" id="components">
+      <div class="section-heading"><p class="eyebrow">Ready-to-study patterns</p><h2>Reusable UI components</h2></div>
+      <p>Buttons, cards, navigation, forms, alerts, badges and responsive page patterns are documented in the component showcase.</p>
+      <a class="button button-primary" href="examples/components/component-showcase.html">Open component showcase</a>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container"><p>Royal CSS Design System · Educational project · No framework required</p></div></footer>
+</body>
+</html>
