@@ -1,5 +1,6 @@
 # Royal CSS Design System
 
+> **Educational / demo use only:** Review code before running it. Use only on files, devices, repositories, and networks you own or are explicitly authorized to access. Use at your own risk; no warranty is provided to the maximum extent permitted by applicable law. This notice does not waive non-waivable legal rights or obligations.\n
 A comprehensive CSS learning and design system featuring responsive layouts, modern UI components, animations, themes, advanced CSS patterns and reusable styling examples.
 
 ## Start here
@@ -42,7 +43,3 @@ Start with [Getting Started](docs/GETTING_STARTED.md), follow the [Complete CSS 
 
 ## License
 No license has been declared yet. Until a license is added, standard copyright applies; ask the repository owner before reusing or redistributing the project.
-
-## Educational use, safety and responsibility
-
-This repository is provided for educational, demonstration, and informational purposes. Review code and commands before use. Use it only with files, devices, repositories, and networks you own or are explicitly authorized to access. You are responsible for keeping backups, protecting personal information, and following applicable laws and policies. Use is at your own risk. The project is provided “as is” without warranties, to the maximum extent permitted by applicable law. Nothing in this notice excludes liability, rights, or obligations that cannot legally be excluded. This notice does not grant permission to access or test third-party systems.
